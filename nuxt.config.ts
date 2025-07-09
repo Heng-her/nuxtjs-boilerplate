@@ -5,4 +5,8 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true },
   },
+  devServer:{
+    port: 3005,
+    host: '0.0.0.0',
+  }
 });
